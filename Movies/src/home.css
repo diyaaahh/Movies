@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ .background_i{
+    
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("../public/images/marvel.jpeg");
+    background-size: cover;
+    opacity :0.03;
+   
+ } 
+
+ .background_c{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+    background-color: rgba(10, 70, 50 ,1);
+    z-index: -1;
+ }
+
+.navbar{
+    width: 100%;
+    height :50px;
+    background-color: rgb(0,0,0);
+    position : fixed;
+    top:0px;
+    border-bottom-width: 2px;
+    border-bottom-color: aliceblue;
+    border-bottom-style: solid;
+    z-index:99;
+ }
+ .text{
+   padding-top : 200px;
+ } 
+ 
+.navTitle{
+  color: aliceblue;
+  display: inline-block;
+  font-size: 20px;
+  margin-top :7.5px;
+  margin-left : 135px
+}
+
+/* .LogIn{
+
+  color: aliceblue;
+  display: inline-block;
+  font-size: 20px;
+  margin-top :7.5px;
+  margin-left :130px;
+}
+.SignUp{
+
+  color: aliceblue;
+  display: inline-block;
+  font-size: 20px;
+  margin-top :7.5px;
+  margin-left :100px;
+}
+ */
+.Profile{
+  color: aliceblue;
+  display: inline-block;
+  width :50px;
+  margin-left: 100px;
+}
+.custom-input::placeholder {
+  color: azure;
+}
+.linkk{
+  color: aliceblue;
+}
+.sharetext{
+  background-color: black;
+  border: none;
+  color: aliceblue;
+  display: inline-block;
+  font-size: 20px;
+  margin-top :7.5px;
+  margin-left :100px;
+}
+.headingforhome{
+  padding-top: 60px;
+  margin-left: 480px;
+  color: rgba(247, 249, 247, 0.93);
+  
+}
